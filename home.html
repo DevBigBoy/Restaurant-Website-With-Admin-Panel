@@ -3,8 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- FONT AWESOME CDN -->
+    <title>home</title>
+    <!--==================== SWIPER CSS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!--==================== FONT AWESOME CDN ====================-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--==================== CUSTOME CSS ====================-->
+    <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <!--====================== HEADER START ======================-->
+    <header class="header">
+      <section class="flex">
+        <a href="home.html" class="logo">yum-yum 😋</a>
+
+        <nav class="navbar">
+          <a href="home.html">home</a>
+          <a href="about.html">about</a>
+          <a href="menu.html">menu</a>
+          <a href="orders.html">orders</a>
+          <a href="contact.html">contact</a>
+        </nav>
+
+        <div class="icons">
+          <a href="search.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+
+          <a href="cart.html"
+            ><i class="fa-solid fa-cart-shopping"></i> <span>(3)</span></a
+          >
+
+          <div id="user-btn" class="fa-solid fa-user"></div>
+          <div id="menu-btn" class="fa-solid fa-bars"></div>
+        </div>
+
+        <div class="profile">
+          <p class="name">Ali Gad</p>
+
+          <div class="flex">
+            <a href="profile.html" class="btn">profile</a>
+            <a href="#" class="delete-btn">logout</a>
+          </div>
+
+          <p class="account">
+            <a href="login.html">login</a>
+            or
+            <a href="register.html">register</a>
+          </p>
+        </div>
+      </section>
+    </header>
+    <!--====================== HEADER END ======================-->
+
+    <!-- SWIPER -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- JAVASCRIPT -->
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>
